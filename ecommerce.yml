@@ -1,6 +1,6 @@
 token:
   expiration_time: 864300000
-  secret: 2023-03-16-default_config_token_#14
+  secret: '{cipher}AQCNO+F5VwC0QP0P49y0UbOK+mlzVmBC0NtXG+8sTisksrqUoE8anVK3ADhbElhRHZX7XiWHQ++XoXyXdmRwZddjSILow9ATXFz18fRuyo+0uPt1Ym57tlPQWzirTGB0uVrfdFTq/aiS7MwjPki2ImtE0zKsPsXGtrp3+aYkytj/G18ZnpKrAE3C+mV2xCsjPGVezLiXUzacTlKF3bdjmGNY+IevMJTnFQ1LrQ9S7RV+bjsZXxus7/yhf19uaiBBl69Xoh2+fHEErrHx0blHei8BmyAJ8KYn5rOHww5dcV0N9B1EMEVtomOgMT5SH8lPazUbfqpwMYFU66I7+cjHKF8P/9EvPJ17ldYF4HI/yxuqU+INznCohhx7uJaQcFaeWgYuoWzaagfftiLKH9Sz5wEA'    # key
 
 gateway:
-  ip: localhost_9
+  ip: 127.0.0.1
