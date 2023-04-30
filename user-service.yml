@@ -3,10 +3,14 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}5a5981d03efb996ad072f87762d9d5d9bd7ca5fd6a9fcba314c84122202c4f9d'
+    password: '{cipher}AQAS4h5Nb4b1mUl+uiVT6Gv1mEwRQXQuAu5RBmsCfNd7yQOg17x7pN322ZMxEifshb+6TWBcnPaOvF214+//z3x7PM/u5LaxpZ+NdbNdjBxID80IvFqqETSoB2iOHCGegwM3ajZWVdBy7JEoGovC+SKmfbisXbxNzD/60WOT+gfKZq0a1VqVpCapOwF2wVDsnGh5JsNZ0MqF0Bo29S7/hREHTPfj95Kv5NTxUgpGpClS4ecWFmyODlBuCDVLS6ofrrWUKLfxVHLYBDRbmSmZqJQ3HM1Xf3lwXIE4hYLbBEg9Yd1skvGSM+5C+LksbL9TdOj/p/dYHIA7MFemfVuXFifJLX7byD8PGMLIZoSLMcMk8V9n3zSZ69IO/EGuwUvcVPQ='
 
 token:
-  expiration_time: 464000000
-  secret: MY_SECRET_20221215
+  expiration_time: 464000000  # one-day
+  secret: user_token_changed_3    # key
+
 gateway:
   ip: 127.0.0.1
+
+order_service:
+  url: http://order-service/order-service/%s/orders
